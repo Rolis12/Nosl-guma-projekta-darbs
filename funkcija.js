@@ -1,3 +1,20 @@
+function createArray(row,column) {
+let arr = [];
+
+for(var i=0; i<row; i++){
+    arr[i] = [Math.floor = 5000000 ];
+
+    for(var j=0;j<column;j++){
+        arr[i][j]= [Math.floor = 0];
+    }
+}
+
+return arr;
+}
+
+var arrVal = createArray(5000000, 0);
+
+console.log(arrVal);
 let input = document.querySelector('input');
 let textarea = document.querySelector('textarea');
 input.addEventListener('change', () => {
@@ -14,3 +31,4 @@ input.addEventListener('change', () => {
     reader.readAsText(file); 
     
 });
+

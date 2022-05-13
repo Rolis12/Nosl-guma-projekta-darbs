@@ -1,9 +1,11 @@
 body {
-  background-color: LightSalmon;
-  color: #FFA07A;
-  font-family: "Arial";
+  background-image: url("Fons1.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+
  }
 h1 {
-  color: white;
+  color: Black;
   text-align: center;
+text-shadow: 2px 2px red;
 }
